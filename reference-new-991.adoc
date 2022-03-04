@@ -1,0 +1,127 @@
+---
+sidebar: sidebar
+permalink: reference-new-991.html
+keywords: what's new, new, features, release notes, enhancements
+summary: Cloud Volumes ONTAP 9.9.1 includes several new features and enhancements.
+---
+
+= What's new in Cloud Volumes ONTAP 9.9.1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Cloud Volumes ONTAP 9.9.1 includes several new features and enhancements.
+
+Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/occm/reference_new_occm.html[Cloud Manager Release Notes^] for details.
+
+== 9.9.1 P7 (21 Feb 2022)
+
+The 9.9.1 P7 patch is now available for Cloud Volumes ONTAP in Microsoft Azure if you have a Connector running version 3.9.15 or later. Cloud Manager will prompt you to upgrade your existing systems to this patch release.
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P7[View the list of bugs fixed in the P7 patch^] (NetApp Support Site login required).
+
+== 9.9.1 patches (3 Feb 2022)
+
+Two new patches are available for Cloud Volumes ONTAP:
+
+* 9.9.1 P6 in AWS and Google Cloud
+* 9.9.1 P3 in Microsoft Azure
+
+Cloud Manager will prompt you to upgrade your existing systems to these patch releases.
+
+* https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P6[View the list of bugs fixed in the P6 patch^] (NetApp Support Site login required)
+
+* https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P3[View the list of bugs fixed in the P3 patch^] (NetApp Support Site login required)
+
+== 9.9.1 GA (21 July 2021)
+
+The General Availability (GA) release of Cloud Volumes ONTAP 9.9.1 is now available. The GA release includes bug fixes.
+
+Cloud Manager will prompt you to upgrade existing systems that are running any of the following versions: 9.9.1 Release Candidate, 9.9.0, or 9.8.
+
+== 9.9.1 update (7 July 2021)
+
+The following changes were introduced with the Cloud Manager 3.9.8 release.
+
+* New charging methods are available for Cloud Volumes ONTAP.
+
+** *Capacity-based BYOL*: A capacity-based license enables you to pay for Cloud Volumes ONTAP per TiB of capacity. The license is associated with your NetApp account and enables you to create multiple Cloud Volumes ONTAP systems, as long as enough capacity is available through your license. Capacity-based licensing is available in the form of a package, either _Essentials_ or _Professional_.
+
+** *Freemium offering*: Freemium enables you to use all Cloud Volumes ONTAP features free of charge from NetApp (cloud provider charges still apply). You're limited to 500 GiB of allocated capacity per system and there’s no support contract. You can have up to 10 Freemium systems.
++
+link:concept-licensing-991.html[Learn more about these licensing options].
+
+* In AWS, Cloud Volumes ONTAP now supports the m5dn.24xlarge instance type with the following charging methods: PAYGO Premium, capacity-based licenses (BYOL), and node-based licenses (BYOL).
+
+* In Google Cloud, Cloud Volumes ONTAP now supports Balanced persistent disks (pd-balanced). These SSDs balance performance and cost by providing lower IOPS per GiB.
+
+* The custom-4-16384 machine type is no longer supported with new Cloud Volumes ONTAP systems in Google Cloud.
++
+If you have an existing system running on this machine type, you can keep using it, but we recommend switching to the n2-standard-4 machine type.
+
+https://docs.netapp.com/us-en/occm/reference_new_occm.html[Learn more about what's new in Cloud Manager^].
+
+== 9.9.1 update (3 June 2021)
+
+The recent Cloud Manager 3.9.7 release introduced support for a new Professional Package that enables you to bundle Cloud Volumes ONTAP and Cloud Backup Service by using an annual contract from the AWS Marketplace.
+
+link:reference-configs-aws-991.html[Learn more about this licensing option.]
+
+== 9.9.1 Release Candidate (24 May 2021)
+
+The Cloud Volumes ONTAP 9.9.1 Release Candidate is now available in AWS, Azure, and Google Cloud Platform.
+
+In addition to the features introduced with https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508[ONTAP 9.9.1^], this release of Cloud Volumes ONTAP includes the following:
+
+* <<ONTAP S3 support in Azure>>
+* <<Enhanced performance in AWS with high write speed>>
+* <<io2 boot disk in AWS>>
+
+=== ONTAP S3 support in Azure
+
+You can now provide S3 object storage from Cloud Volumes ONTAP in Azure. Cloud Volumes ONTAP for Microsoft Azure supports S3 as an option for scale-out storage, in addition to classic file-based protocols like NFS and SMB.
+
+Note the following:
+
+* The main use case for ONTAP S3 with Cloud Volumes ONTAP is a general purpose object store.
+* At this time, the S3 protocol is not supported with Cloud Volumes ONTAP in AWS or in Google Cloud.
+* Cloud Manager doesn't provide any management capabilities for the ONTAP S3 feature.
+
+Using the CLI is the best practice to configure S3 client access from Cloud Volumes ONTAP. For details, refer to the http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-s3-cg/home.html[S3 Configuration Power Guide^].
+
+=== Enhanced performance in AWS with high write speed
+
+We have enhanced the throughput performance of Cloud Volumes ONTAP when https://docs.netapp.com/us-en/occm/concept_write_speed.html[high write speed^] is enabled on a supported instance type.
+
+=== io2 boot disk in AWS
+
+In AWS, the boot disk for a new Cloud Volumes ONTAP system is now a provisioned IOPS SSD (io2) volume. io2 volumes provide more reliability than io1 volumes, which were previously used for boot disks.
+
+== Required version of the Cloud Manager Connector
+
+The Cloud Manager Connector must be running version 3.9.6 or later to deploy new Cloud Volumes ONTAP 9.9.1 systems and to upgrade existing systems to 9.9.1.
+
+== Upgrade notes
+
+* Upgrades of Cloud Volumes ONTAP must be completed from Cloud Manager. You should not upgrade Cloud Volumes ONTAP by using System Manager or the CLI. Doing so can impact system stability.
+
+* You can upgrade to Cloud Volumes ONTAP 9.9.1 from the 9.9.0 release and from the 9.8 release. Cloud Manager will prompt you to upgrade your existing Cloud Volumes ONTAP 9.9.0 and 9.8 systems to the 9.9.1 release.
++
+http://docs.netapp.com/us-en/occm/task_updating_ontap_cloud.html#upgrading-cloud-volumes-ontap-from-cloud-manager-notifications[Learn how to upgrade when Cloud Manager notifies you^].
+
+* The upgrade of a single node system takes the system offline for up to 25 minutes, during which I/O is interrupted.
+
+* Upgrading an HA pair is nondisruptive and I/O is uninterrupted. During this nondisruptive upgrade process, each node is upgraded in tandem to continue serving I/O to clients.
+
+=== c4, m4, and r4 instance types
+
+Starting with the 9.8 release, c4, m4, and r4 instance types aren't supported with new Cloud Volumes ONTAP systems. If you have an existing Cloud Volumes ONTAP system that's running on a c4, m4, or r4 instance type, you can still upgrade to this release.
+
+We recommend changing to an instance type in the c5, m5, or r5 instance family.
+
+=== DS3_v2
+
+Starting with the 9.9.1 release, the DS3_v2 VM type is no longer supported with new and existing Cloud Volumes ONTAP systems. If you have an existing system running on this VM type, you'll need to change VM types before you upgrade to 9.9.1.
