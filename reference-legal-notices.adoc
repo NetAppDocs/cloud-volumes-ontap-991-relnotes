@@ -1,0 +1,62 @@
+---
+sidebar: sidebar
+permalink: reference-legal-notices.html
+keywords: copyrights, notice, trademarks, patents, privacy, open source
+summary: Legal notices provide access to copyright statements, trademarks, patents, and more.
+---
+
+= Legal notices
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Legal notices provide access to copyright statements, trademarks, patents, and more.
+
+== Copyright
+
+http://www.netapp.com/us/legal/copyright.aspx[^]
+
+== Trademarks
+
+NETAPP, the NETAPP logo, and the marks listed on the NetApp Trademarks page are trademarks of NetApp, Inc. Other company and product names may be trademarks of their respective owners.
+
+http://www.netapp.com/us/legal/netapptmlist.aspx[^]
+
+== Patents
+
+A current list of NetApp owned patents can be found at:
+
+https://www.netapp.com/us/media/patents-page.pdf[^]
+
+== Privacy policy
+
+https://www.netapp.com/us/legal/privacypolicy/index.aspx[^]
+
+== Open source
+
+Notice files provide information about third-party copyright and licenses used in NetApp software.
+
+* link:media/notice_cloud_volumes_ontap_9.10.1_aws.pdf[Notice for Cloud Volumes ONTAP 9.10.1 Mediator in AWS^]
+* link:media/notice_cloud_volumes_ontap_9.10.1_google.pdf[Notice for Cloud Volumes ONTAP 9.10.1 Mediator in Google Cloud^]
+* link:media/notice_cloud_volumes_ontap_9.10.0_aws.pdf[Notice for Cloud Volumes ONTAP 9.10.0 Mediator in AWS^]
+* link:media/notice_cloud_volumes_ontap_9.10.0_google.pdf[Notice for Cloud Volumes ONTAP 9.10.0 Mediator in Google Cloud^]
+* link:media/notice_cloud_volumes_ontap_9.9.1_aws.pdf[Notice for Cloud Volumes ONTAP 9.9.1 Mediator in AWS^]
+* link:media/notice_cloud_volumes_ontap_9.9.1_google.pdf[Notice for Cloud Volumes ONTAP 9.9.1 Mediator in Google Cloud^]
+* link:media/notice_cloud_volumes_ontap_9.9.0.pdf[Notice for Cloud Volumes ONTAP 9.9.0^]
+* link:media/notice_cloud_volumes_ontap_9.8.pdf[Notice for Cloud Volumes ONTAP 9.8^]
+* link:media/notice_cloud_volumes_ontap_9.7.pdf[Notice for Cloud Volumes ONTAP 9.7^]
+* link:media/notice_cloud_volumes_ontap_9.6.pdf[Notice for Cloud Volumes ONTAP 9.6^]
+* link:media/notice_cloud_volumes_ontap_9.5.pdf[Notice for Cloud Volumes ONTAP 9.5^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2846508[Notice for Cloud Volumes ONTAP 9.4^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2589386[Notice for ONTAP Cloud 9.3^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2873871[Notice for ONTAP 9.10^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2876856[Notice for ONTAP 9.9.1]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2873871[Notice for ONTAP 9.8^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2860921[Notice for ONTAP 9.7^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2855145[Notice for ONTAP 9.6^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2850702[Notice for ONTAP 9.5^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2844310[Notice for ONTAP 9.4^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2702054[Notice for ONTAP 9.3^]
