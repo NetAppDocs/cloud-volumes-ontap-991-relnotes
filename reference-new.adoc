@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: reference-new-991.html
+permalink: reference-new.html
 keywords: what's new, new, features, release notes, enhancements
 summary: Cloud Volumes ONTAP 9.9.1 includes several new features and enhancements.
 ---
@@ -52,7 +52,7 @@ The following changes were introduced with the Cloud Manager 3.9.8 release.
 
 ** *Freemium offering*: Freemium enables you to use all Cloud Volumes ONTAP features free of charge from NetApp (cloud provider charges still apply). You're limited to 500 GiB of allocated capacity per system and there’s no support contract. You can have up to 10 Freemium systems.
 +
-link:concept-licensing-991.html[Learn more about these licensing options].
+link:concept-licensing.html[Learn more about these licensing options].
 
 * In AWS, Cloud Volumes ONTAP now supports the m5dn.24xlarge instance type with the following charging methods: PAYGO Premium, capacity-based licenses (BYOL), and node-based licenses (BYOL).
 
@@ -68,7 +68,7 @@ https://docs.netapp.com/us-en/occm/reference_new_occm.html[Learn more about what
 
 The recent Cloud Manager 3.9.7 release introduced support for a new Professional Package that enables you to bundle Cloud Volumes ONTAP and Cloud Backup Service by using an annual contract from the AWS Marketplace.
 
-link:reference-configs-aws-991.html[Learn more about this licensing option.]
+link:reference-configs-aws.html[Learn more about this licensing option.]
 
 == 9.9.1 Release Candidate (24 May 2021)
 

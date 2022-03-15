@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: reference-limitations-991.html
+permalink: reference-limitations.html
 keywords: limitations, detaching, snapmanager, features, disks, aggregates, features, svm
 summary: Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
 ---
 
-= Limitations for Cloud Volumes ONTAP 9.9.1 in all cloud providers
+= Limitations in all cloud providers
 :hardbreaks:
 :nofooter:
 :icons: font

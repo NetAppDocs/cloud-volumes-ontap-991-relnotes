@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: reference-configs-aws-991.html
+permalink: reference-configs-aws.html
 keywords: ec2, instance, type, explore, standard, premium, byol, capacity, maximum, virtual machine, Cloud Volumes ONTAP, supported, configurations, sizes, disks, networking, bandwidth, professional package
 summary: Several Cloud Volumes ONTAP configurations are supported in AWS.
 ---
 
-= Supported configurations for Cloud Volumes ONTAP 9.9.1 in AWS
+= Supported configurations in AWS
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -53,7 +53,7 @@ Each license supports a different maximum system capacity. The maximum system ca
 
 . For an HA pair, the capacity limit is for the entire HA pair. It's not per node. For example, if you use the Premium license, you can have up to 368 TiB of capacity between both nodes.
 
-. For some configurations, disk limits prevent you from reaching the capacity limit by using disks alone. In those cases, you can reach the capacity limit by https://docs.netapp.com/us-en/occm/concept_data_tiering.html[tiering inactive data to object storage^]. For information about disk limits, refer to link:reference-limits-aws-991.html[storage limits].
+. For some configurations, disk limits prevent you from reaching the capacity limit by using disks alone. In those cases, you can reach the capacity limit by https://docs.netapp.com/us-en/occm/concept_data_tiering.html[tiering inactive data to object storage^]. For information about disk limits, refer to link:reference-limits-aws.html[storage limits].
 
 . Enhanced write performance is enabled when using SSDs with all Cloud Volumes ONTAP configurations, except for PAYGO Explore.
 
