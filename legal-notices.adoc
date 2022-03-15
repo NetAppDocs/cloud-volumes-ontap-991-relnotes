@@ -41,4 +41,4 @@ Notice files provide information about third-party copyright and licenses used i
 
 * link:media/notice_cloud_volumes_ontap_9.9.1_aws.pdf[Notice for Cloud Volumes ONTAP 9.9.1 Mediator in AWS^]
 * link:media/notice_cloud_volumes_ontap_9.9.1_google.pdf[Notice for Cloud Volumes ONTAP 9.9.1 Mediator in Google Cloud^]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2876856[Notice for ONTAP 9.9.1]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2876856[Notice for ONTAP 9.9.1^]

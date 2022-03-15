@@ -13,7 +13,7 @@ summary: Known limitations identify platforms, devices, or functions that are no
 :imagesdir: ./media/
 
 [.lead]
-The following known limitations are specific to Cloud Volumes ONTAP in Google Cloud Platform. Be sure to also review link:reference-limitations.html[Limitations for Cloud Volumes ONTAP 9.9.1 in all cloud providers].
+The following known limitations are specific to Cloud Volumes ONTAP in Google Cloud Platform. Be sure to also review link:reference-limitations.html[Limitations in all cloud providers].
 
 == Google Private Service Connect limitations
 
