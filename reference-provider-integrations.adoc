@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: reference-provider-integrations-991.html
+permalink: reference-provider-integrations.html
 keywords: maintenance event, azure maintenance event, cloud provider, issues, support
 summary: This page describes how NetApp works with cloud providers to resolve issues that might arise.
 ---

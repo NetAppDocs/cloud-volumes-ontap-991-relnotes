@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: reference-limitations-991.html
+permalink: reference-limitations.html
 keywords: limitations, detaching, snapmanager, features, disks, aggregates, features, svm
 summary: Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
 ---
 
-= Limitations for Cloud Volumes ONTAP 9.9.1 in all cloud providers
+= Limitations in all cloud providers
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -15,7 +15,7 @@ summary: Known limitations identify platforms, devices, or functions that are no
 [.lead]
 Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
 
-The following limitations apply to Cloud Volumes ONTAP in all cloud providers: AWS, Azure, and GCP.
+The following limitations apply to Cloud Volumes ONTAP in all cloud providers: AWS, Azure, and Google Cloud.
 
 == Maximum concurrent replication operations
 
@@ -25,7 +25,7 @@ The maximum number of concurrent SnapMirror or SnapVault transfers for Cloud Vol
 
 You shouldn't use your cloud provider's snapshots as part of your backup and recovery plan for Cloud Volumes ONTAP data. You should always use ONTAP Snapshot copies or third-party backup solutions to back up and restore data hosted on Cloud Volumes ONTAP.
 
-https://docs.netapp.com/us-en/occm/concept_backup_to_cloud.html[Learn how to use the Cloud Backup service to back up and restore ONTAP data^].
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html[Learn how to use Cloud Backup to back up and restore ONTAP data^].
 
 NOTE: ONTAP consistency points in the WAFL file system determine data consistency. Only ONTAP can quiesce the WAFL file system to make a crash-consistent backup.
 
