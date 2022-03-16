@@ -15,7 +15,7 @@ summary: Cloud Volumes ONTAP 9.9.1 includes several new features and enhancement
 [.lead]
 Cloud Volumes ONTAP 9.9.1 includes several new features and enhancements.
 
-Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/occm/reference_new_occm.html[Cloud Manager Release Notes^] for details.
+Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Cloud Manager Release Notes^] for details.
 
 == 9.9.1 P7 (21 Feb 2022)
 
@@ -62,7 +62,7 @@ link:concept-licensing.html[Learn more about these licensing options].
 +
 If you have an existing system running on this machine type, you can keep using it, but we recommend switching to the n2-standard-4 machine type.
 
-https://docs.netapp.com/us-en/occm/reference_new_occm.html[Learn more about what's new in Cloud Manager^].
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Learn more about what's new in Cloud Manager^].
 
 == 9.9.1 update (3 June 2021)
 
@@ -94,7 +94,7 @@ Using the CLI is the best practice to configure S3 client access from Cloud Volu
 
 === Enhanced performance in AWS with high write speed
 
-We have enhanced the throughput performance of Cloud Volumes ONTAP when https://docs.netapp.com/us-en/occm/concept_write_speed.html[high write speed^] is enabled on a supported instance type.
+We have enhanced the throughput performance of Cloud Volumes ONTAP when https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html[high write speed^] is enabled on a supported instance type.
 
 === io2 boot disk in AWS
 
@@ -110,7 +110,7 @@ The Cloud Manager Connector must be running version 3.9.6 or later to deploy new
 
 * You can upgrade to Cloud Volumes ONTAP 9.9.1 from the 9.9.0 release and from the 9.8 release. Cloud Manager will prompt you to upgrade your existing Cloud Volumes ONTAP 9.9.0 and 9.8 systems to the 9.9.1 release.
 +
-http://docs.netapp.com/us-en/occm/task_updating_ontap_cloud.html#upgrading-cloud-volumes-ontap-from-cloud-manager-notifications[Learn how to upgrade when Cloud Manager notifies you^].
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when Cloud Manager notifies you^].
 
 * The upgrade of a single node system takes the system offline for up to 25 minutes, during which I/O is interrupted.
 

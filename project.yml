@@ -55,7 +55,7 @@ sidebar:
           url: /reference-configs-aws.html
         - title: Azure
           url: /reference-configs-azure.html
-        - title: GCP
+        - title: Google Cloud
           url: /reference-configs-gcp.html
     - title: Storage limits
       entries:
@@ -63,7 +63,7 @@ sidebar:
           url: /reference-limits-aws.html
         - title: Azure
           url: /reference-limits-azure.html
-        - title: GCP
+        - title: Google Cloud
           url: /reference-limits-gcp.html
     - title: Known issues
       url: /reference-issues.html
@@ -75,7 +75,7 @@ sidebar:
           url: /reference-limitations-aws.html
         - title: Limitations in Azure
           url: /reference-limitations-azure.html
-        - title: Limitations in GCP
+        - title: Limitations in Google Cloud
           url: /reference-limitations-gcp.html
     - title: Cloud provider integrations
       url: /reference-provider-integrations.html
