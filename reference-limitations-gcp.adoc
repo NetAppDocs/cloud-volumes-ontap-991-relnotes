@@ -17,6 +17,6 @@ The following known limitations are specific to Cloud Volumes ONTAP in Google Cl
 
 == Google Private Service Connect limitations
 
-If you leverage https://cloud.google.com/vpc/docs/private-service-connect[Google Private Service Connect^] within the VPC that you are deploying Cloud Volumes ONTAP into, you will need to implement DNS records that forward traffic to the required https://docs.netapp.com/us-en/cloud-manager-connector/reference-networking-cloud-manager.html#outbound-internet-access.html[Cloud Manager API Endpoints^].
+If you leverage https://cloud.google.com/vpc/docs/private-service-connect[Google Private Service Connect^] within the VPC that you are deploying Cloud Volumes ONTAP into, you will need to implement DNS records that forward traffic to the required https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-networking-cloud-manager.html#outbound-internet-access.html[Cloud Manager API Endpoints^].
 
 Tiering data from Cloud Volumes ONTAP into a Google Cloud Storage bucket is not currently supported with Private Service Connect.
