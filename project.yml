@@ -13,7 +13,7 @@ settings:
       url: /cloud-volumes-ontap-relnotes
       version-number: "9.11.1"
     - name: Cloud Volumes ONTAP
-      url:/cloud-volumes-ontap-9110-relnotes
+      url: /cloud-volumes-ontap-9110-relnotes
       version-number: "9.11.0"
     - name: Cloud Volumes ONTAP
       url: /cloud-volumes-ontap-9101-relnotes
