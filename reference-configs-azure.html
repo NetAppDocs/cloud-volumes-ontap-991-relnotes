@@ -697,7 +697,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-18 16:59:53 +0000">04/18/2022</time>
+    <time datetime="2022-06-08 21:45:58 +0000">06/08/2022</time>
     
   
 
@@ -957,6 +957,9 @@
 <p>This VM type includes local NVMe storage, which Cloud Volumes ONTAP uses as <em>Flash Cache</em>. Flash Cache speeds access to data through real-time intelligent caching of recently read user data and NetApp metadata. It is effective for random read-intensive workloads, including databases, email, and file services. Compression must be disabled on all volumes to take advantage of the Flash Cache performance improvements. <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-flash-cache.html" target="_blank" rel="noopener">Learn more</a>.</p>
 </li>
 <li>
+<p>High write speed is supported with all instance types when using a single node system. You can enable high write speed from Cloud Manager during deployment or any time after. <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">Learn more about choosing a write speed</a>.</p>
+</li>
+<li>
 <p>Enhanced write performance is enabled when using SSDs.</p>
 </li>
 <li>
@@ -1028,7 +1031,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1,2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1060,7 +1063,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1,2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1088,7 +1091,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1,2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1116,7 +1119,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1,2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1133,7 +1136,7 @@
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Cloud Volumes ONTAP supports high write speed with these VM types when using an HA pair. High write speed is supported with all instance types when using a single node system. <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">Learn more about choosing a write speed</a>.</p>
+<p>Cloud Volumes ONTAP supports high write speed with these VM types when using an HA pair. You can enable high write speed from Cloud Manager during deployment or any time after. <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">Learn more about choosing a write speed</a>.</p>
 </li>
 <li>
 <p>This VM is recommended only when Azure maintenance control is needed. It&#8217;s not recommended for any other use case due to the higher pricing.</p>
