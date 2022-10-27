@@ -51,8 +51,6 @@ Cloud Volumes ONTAP uses EBS volumes as disks, with a maximum disk size of 16 Ti
 
 Note the following:
 
-* c4, m4, and r4 instance types are not supported with new Cloud Volumes ONTAP 9.9.1 systems. However, we're still showing disk limits for these instance types because you can upgrade a system to the 9.9.1 release when running on one of these instance types.
-
 * The disk limits below are specific to disks that contain user data. The limits do not include the boot disk and root disk.
 
 * You can now purchase multiple node-based licenses for a Cloud Volumes ONTAP BYOL system to allocate more than 368 TiB of capacity. The number of licenses that you can purchase for a single node system or HA pair is unlimited. Be aware that disk limits can prevent you from reaching the capacity limit by using disks alone. You can go beyond the disk limit by https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html[tiering inactive data to object storage^]. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html[Learn how to add additional system licenses to Cloud Volumes ONTAP^].
@@ -68,7 +66,6 @@ Note the following:
 
 | c5, m5, and r5 instances | 21 ^1^ | 336 TiB | 368 TiB
 | m5dn.24xlarge | 19 ^2^ | 304 TiB | 368 TiB
-| c4, m4, and r4 instances | 34 | 368 TiB | 368 TiB
 |===
 
 . 21 data disks is the limit for _new_ deployments of Cloud Volumes ONTAP. If you upgrade a system that was created with version 9.7 or earlier, then the system continues to support 22 disks. One less data disk is supported on new systems that use these instance types because of the addition of a core disk starting with the 9.8 release.
@@ -87,7 +84,6 @@ Note the following:
 2+| | *Disks alone* | *Disks + data tiering* | *Disks alone* | *Disks + data tiering*
 | c5, m5, and r5 instances | 21 ^1^ | 336 TiB | 368 TiB | 336 TiB | 368 TiB x each license
 | m5dn.24xlarge | 19 ^2^ | 304 TiB | 368 TiB | 304 TiB | 368 TiB x each license
-| c4, m4, and r4 instances | 34 | 368 TiB | 368 TiB | 544 TiB | 368 TiB x each license
 |===
 
 . 21 data disks is the limit for _new_ deployments of Cloud Volumes ONTAP. If you upgrade a system that was created with version 9.7 or earlier, then the system continues to support 22 disks. One less data disk is supported on new systems that use these instance types because of the addition of a core disk starting with the 9.8 release.
@@ -120,7 +116,6 @@ Note the following:
 
 | c5, m5, and r5 instances | 18 ^1^ | 288 TiB | 368 TiB
 | m5dn.24xlarge | 16 ^2^ | 256 TiB | 368 TiB
-| c4, m4, and r4 instances | 31 | 368 TiB | 368 TiB
 |===
 
 . 18 data disks is the limit for _new_ deployments of Cloud Volumes ONTAP. If you upgrade a system that was created with version 9.7 or earlier, then the system continues to support 19 disks. One less data disk is supported on new systems that use these instance types because of the addition of a core disk starting with the 9.8 release.
@@ -140,7 +135,6 @@ Note the following:
 
 | c5, m5, and r5 instances | 18 ^1^ | 288 TiB | 368 TiB | 288 TiB | 368 TiB x each license
 | m5dn.24xlarge | 16 ^2^ | 256 TiB | 368 TiB | 256 TiB | 368 TiB x each license
-| c4, m4, and r4 instances | 31 | 368 TiB | 368 TiB | 496 TiB | 368 TiB x each license
 |===
 
 . 18 data disks is the limit for _new_ deployments of Cloud Volumes ONTAP. If you upgrade a system that was created with version 9.7 or earlier, then the system continues to support 19 disks. One less data disk is supported on new systems that use these instance types because of the addition of a core disk starting with the 9.8 release.
@@ -207,18 +201,11 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 | c5, m5, and r5 a|
 * 24 storage VMs total ^1,2^
 
-.2+| *Node-based PAYGO* | c4, m4, and r4 a|
+| *Node-based PAYGO* | c5, m5, and r5 a|
 * 1 storage VM for serving data
 * 1 storage VM for disaster recovery
 
-| c5, m5, and r5 a|
-* 1 storage VM for serving data
-* 1 storage VM for disaster recovery
-
-.2+| *Node-based BYOL* ^4^ | c4, m4, and r4 a|
-* 1 storage VM for serving data
-* 1 storage VM for disaster recovery
-| c5, m5, and r5 a|
+| *Node-based BYOL* ^4^ | c5, m5, and r5 a|
 * 24 storage VMs total ^1,2^
 
 |===
