@@ -15,17 +15,17 @@ summary: Cloud Volumes ONTAP 9.9.1 includes several new features and enhancement
 [.lead]
 Cloud Volumes ONTAP 9.9.1 includes several new features and enhancements.
 
-Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Cloud Manager Release Notes^] for details.
+Additional features and enhancements are also introduced in the latest versions of BlueXP. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[BlueXP Release Notes^] for details.
 
 == 9.9.1 P8 (15 May 2022)
 
-The 9.9.1 P8 patch is now available for Cloud Volumes ONTAP in Microsoft Azure if you have a Connector running version 3.9.13 or later. Cloud Manager will prompt you to upgrade your existing systems to this patch release.
+The 9.9.1 P8 patch is now available for Cloud Volumes ONTAP in Microsoft Azure if you have a Connector running version 3.9.13 or later. BlueXP will prompt you to upgrade your existing systems to this patch release.
 
 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P8[View the list of bugs fixed in the P8 patch^] (NetApp Support Site login required).
 
 == 9.9.1 P7 (21 Feb 2022)
 
-The 9.9.1 P7 patch is now available for Cloud Volumes ONTAP in Microsoft Azure if you have a Connector running version 3.9.15 or later. Cloud Manager will prompt you to upgrade your existing systems to this patch release.
+The 9.9.1 P7 patch is now available for Cloud Volumes ONTAP in Microsoft Azure if you have a Connector running version 3.9.15 or later. BlueXP will prompt you to upgrade your existing systems to this patch release.
 
 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P7[View the list of bugs fixed in the P7 patch^] (NetApp Support Site login required).
 
@@ -36,7 +36,7 @@ Two new patches are available for Cloud Volumes ONTAP:
 * 9.9.1 P6 in AWS and Google Cloud
 * 9.9.1 P3 in Microsoft Azure
 
-Cloud Manager will prompt you to upgrade your existing systems to these patch releases.
+BlueXP will prompt you to upgrade your existing systems to these patch releases.
 
 * https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P6[View the list of bugs fixed in the P6 patch^] (NetApp Support Site login required)
 
@@ -46,11 +46,11 @@ Cloud Manager will prompt you to upgrade your existing systems to these patch re
 
 The General Availability (GA) release of Cloud Volumes ONTAP 9.9.1 is now available. The GA release includes bug fixes.
 
-Cloud Manager will prompt you to upgrade existing systems that are running any of the following versions: 9.9.1 Release Candidate, 9.9.0, or 9.8.
+BlueXP will prompt you to upgrade existing systems that are running any of the following versions: 9.9.1 Release Candidate, 9.9.0, or 9.8.
 
 == 9.9.1 update (7 July 2021)
 
-The following changes were introduced with the Cloud Manager 3.9.8 release.
+The following changes were introduced with the BlueXP 3.9.8 release.
 
 * New charging methods are available for Cloud Volumes ONTAP.
 
@@ -68,11 +68,11 @@ link:concept-licensing.html[Learn more about these licensing options].
 +
 If you have an existing system running on this machine type, you can keep using it, but we recommend switching to the n2-standard-4 machine type.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Learn more about what's new in Cloud Manager^].
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Learn more about what's new in BlueXP^].
 
 == 9.9.1 update (3 June 2021)
 
-The recent Cloud Manager 3.9.7 release introduced support for a new Professional Package that enables you to bundle Cloud Volumes ONTAP and Cloud Backup Service by using an annual contract from the AWS Marketplace.
+The recent BlueXP 3.9.7 release introduced support for a new Professional Package that enables you to bundle Cloud Volumes ONTAP and Cloud Backup Service by using an annual contract from the AWS Marketplace.
 
 link:reference-configs-aws.html[Learn more about this licensing option.]
 
@@ -94,7 +94,7 @@ Note the following:
 
 * The main use case for ONTAP S3 with Cloud Volumes ONTAP is a general purpose object store.
 * At this time, the S3 protocol is not supported with Cloud Volumes ONTAP in AWS or in Google Cloud.
-* Cloud Manager doesn't provide any management capabilities for the ONTAP S3 feature.
+* BlueXP doesn't provide any management capabilities for the ONTAP S3 feature.
 
 Using the CLI is the best practice to configure S3 client access from Cloud Volumes ONTAP. For details, refer to the http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-s3-cg/home.html[S3 Configuration Power Guide^].
 
@@ -106,17 +106,17 @@ We have enhanced the throughput performance of Cloud Volumes ONTAP when https://
 
 In AWS, the boot disk for a new Cloud Volumes ONTAP system is now a provisioned IOPS SSD (io2) volume. io2 volumes provide more reliability than io1 volumes, which were previously used for boot disks.
 
-== Required version of the Cloud Manager Connector
+== Required version of the BlueXP Connector
 
-The Cloud Manager Connector must be running version 3.9.6 or later to deploy new Cloud Volumes ONTAP 9.9.1 systems and to upgrade existing systems to 9.9.1.
+The BlueXP Connector must be running version 3.9.6 or later to deploy new Cloud Volumes ONTAP 9.9.1 systems and to upgrade existing systems to 9.9.1.
 
 == Upgrade notes
 
-* Upgrades of Cloud Volumes ONTAP must be completed from Cloud Manager. You should not upgrade Cloud Volumes ONTAP by using System Manager or the CLI. Doing so can impact system stability.
+* Upgrades of Cloud Volumes ONTAP must be completed from BlueXP. You should not upgrade Cloud Volumes ONTAP by using System Manager or the CLI. Doing so can impact system stability.
 
-* You can upgrade to Cloud Volumes ONTAP 9.9.1 from the 9.9.0 release and from the 9.8 release. Cloud Manager will prompt you to upgrade your existing Cloud Volumes ONTAP 9.9.0 and 9.8 systems to the 9.9.1 release.
+* You can upgrade to Cloud Volumes ONTAP 9.9.1 from the 9.9.0 release and from the 9.8 release. BlueXP will prompt you to upgrade your existing Cloud Volumes ONTAP 9.9.0 and 9.8 systems to the 9.9.1 release.
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when Cloud Manager notifies you^].
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when BlueXP notifies you^].
 
 * The upgrade of a single node system takes the system offline for up to 25 minutes, during which I/O is interrupted.
 
