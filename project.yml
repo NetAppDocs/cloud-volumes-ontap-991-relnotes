@@ -13,6 +13,9 @@ settings:
       url: /cloud-volumes-ontap-relnotes
       version-number: "9.12.1"
     - name: Cloud Volumes ONTAP
+      url: /cloud-volumes-ontap-9120-relnotes
+      version-number: "9.12.0"
+    - name: Cloud Volumes ONTAP
       url: /cloud-volumes-ontap-9111-relnotes
       version-number: "9.11.1"
     - name: Cloud Volumes ONTAP
@@ -47,7 +50,7 @@ settings:
       version-number: "9.3"
 sidebar:
   entries:
-    - title: All Cloud Manager documentation
+    - title: All BlueXP documentation
       url: https://docs.netapp.com/us-en/cloud-manager-family
     - title: Release notes home
       url: /index.html
@@ -88,7 +91,7 @@ sidebar:
     - title: Legal notices
       url: /legal-notices.html
 product-family:
-  name: Cloud Manager
+  name: BlueXP
   repo: cloud-manager-family
 homepage:
   tiles:
