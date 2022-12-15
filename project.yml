@@ -5,6 +5,7 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
+    harmony_enabled: true
   versions:
     - name: Cloud Volumes ONTAP
       url: /cloud-volumes-ontap-991-relnotes
@@ -50,8 +51,6 @@ settings:
       version-number: "9.3"
 sidebar:
   entries:
-    - title: All BlueXP documentation
-      url: https://docs.netapp.com/us-en/cloud-manager-family
     - title: Release notes home
       url: /index.html
     - title: What's new
@@ -93,6 +92,7 @@ sidebar:
 product-family:
   name: BlueXP
   repo: cloud-manager-family
+  sidebar_label: All Cloud Manager documentation
 homepage:
   tiles:
     - title: Get started
@@ -133,3 +133,4 @@ homepage:
           url: https://cloud.netapp.com/blog
         - title: Cloud webinars
           url: https://cloud.netapp.com/events
+
