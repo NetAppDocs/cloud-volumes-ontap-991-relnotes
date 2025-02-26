@@ -191,4 +191,4 @@ The bandwidths shown in the table below match the documented AWS limits for each
 
 == Supported regions
 
-For AWS region support, see https://cloud.netapp.com/cloud-volumes-global-regions[Cloud Volumes Global Regions^].
+For AWS region support, see https://bluexp.netapp.com/cloud-volumes-global-regions[Cloud Volumes Global Regions^].

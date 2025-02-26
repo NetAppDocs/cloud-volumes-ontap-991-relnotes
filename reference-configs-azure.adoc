@@ -115,7 +115,7 @@ Notes:
 
 . Enhanced write performance is enabled when using SSDs.
 
-. For Azure region support, see https://cloud.netapp.com/cloud-volumes-global-regions[Cloud Volumes Global Regions^].
+. For Azure region support, see https://bluexp.netapp.com/cloud-volumes-global-regions[Cloud Volumes Global Regions^].
 
 . Cloud Volumes ONTAP can run on either a Reserved or On-demand VM instance from your cloud provider. Solutions that use other VM instance types aren't supported.
 
@@ -191,7 +191,7 @@ Notes:
 
 . PAYGO Explore isn't supported with HA pairs in Azure.
 
-. For Azure region support, see https://cloud.netapp.com/cloud-volumes-global-regions[Cloud Volumes Global Regions^].
+. For Azure region support, see https://bluexp.netapp.com/cloud-volumes-global-regions[Cloud Volumes Global Regions^].
 
 . Cloud Volumes ONTAP can run on either a Reserved or On-demand VM instance from your cloud provider. Solutions that use other VM instance types aren't supported.
 
