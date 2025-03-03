@@ -35,4 +35,4 @@ The following limitations affect Cloud Volumes ONTAP HA pairs in Microsoft Azure
 * NFSv4 isn't supported. NFSv3 is supported.
 * HA pairs aren't supported in some regions.
 +
-https://cloud.netapp.com/cloud-volumes-global-regions[See the list of supported Azure regions^]
+https://bluexp.netapp.com/cloud-volumes-global-regions[See the list of supported Azure regions^]
